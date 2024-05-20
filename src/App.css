@@ -1,0 +1,34 @@
+h1 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+input[type="text"] {
+  width: 200px;
+  padding: 10px;
+  margin: 5px;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 15px;
+}
+button {
+  height: 30px;
+  cursor: pointer;
+}
+.todo-details {
+  display: flex;
+  flex-direction: column;
+}
+.todo-tltle {
+  font-weight: bold;
+}
+.todo-item {
+  margin: 10px 0;
+}
